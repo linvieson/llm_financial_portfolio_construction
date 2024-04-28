@@ -1,0 +1,29 @@
+Sure, here's a hypothetical allocation of weights to these stocks in the portfolio:
+
+- JPM: 0.10
+- BAC: 0.10
+- WFC: 0.05
+- C: 0.05
+- GS: 0.10
+- MS: 0.10
+- BLK: 0.10
+- AXP: 0.05
+- V: 0.10
+- MA: 0.10
+- PYPL: 0.05
+- SCHW: 0.05
+- PGR: 0.02
+- ALL: 0.02
+- COF: 0.01
+
+Total: 1.00
+
+The strategy used here is a mix of market cap weighting and sector diversification. 
+
+The larger weights (0.10) are assigned to the stocks with the largest market capitalization, which are JPM, BAC, GS, MS, BLK, V, and MA. This is based on the assumption that larger companies are more stable and have a lower risk of bankruptcy.
+
+The medium weights (0.05) are assigned to the stocks with the medium market capitalization, which are WFC, C, AXP, PYPL, and SCHW. This is based on the assumption that these companies have potential for growth.
+
+The smaller weights (0.02 and 0.01) are assigned to the stocks with the smallest market capitalization, which are PGR, ALL, and COF. This is based on the assumption that these companies have the highest risk, but also the highest potential for return.
+
+This allocation strategy is designed to potentially outperform the SP500-40 financials index by taking on a bit more risk through the smaller companies, while still maintaining stability through the larger companies. However, please note this is a hypothetical example and actual investment decisions should be based on thorough research and analysis.

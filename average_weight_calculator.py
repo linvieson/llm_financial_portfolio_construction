@@ -5,19 +5,12 @@ import os
 
 def calculate_weights_by_sector_average(sector_name, full_ticker, model, params, rerun=False):
     # if calculated average weights file already exists
-    # if model == 'gpt-4':
-    #     csv_path = f'4_avg_weights_assigned/responses15_auto_{sector_name}.csv'
-    # elif model == 'gpt-4-1106-preview':
-    #     csv_path = f'4preview_avg_weights_assigned/responses15_auto_{sector_name}.csv'
-    # else:
-    #     csv_path = f'3_avg_weights_assigned/responses15_auto_{sector_name}.csv'
-
     if model == 'gpt-4':
-        csv_path = f'countries/4_avg_weights_assigned/responses15_auto_{sector_name}.csv'
+        csv_path = f'cached/4_avg_weights_assigned/responses15_auto_{sector_name}.csv'
     elif model == 'gpt-4-1106-preview':
-        csv_path = f'countries/4preview_avg_weights_assigned/responses15_auto_{sector_name}.csv'
+        csv_path = f'cached/4preview_avg_weights_assigned/responses15_auto_{sector_name}.csv'
     else:
-        csv_path = f'countries/3_avg_weights_assigned/responses15_auto_{sector_name}.csv'
+        csv_path = f'cached/3_avg_weights_assigned/responses15_auto_{sector_name}.csv'
 
     if os.path.isfile(csv_path) and not rerun:
         print("Reading from local csv file")
@@ -27,20 +20,12 @@ def calculate_weights_by_sector_average(sector_name, full_ticker, model, params,
     # otherwise calculate avg weights from scratch
     max_tokens, n, stop, temperature = params
 
-    # if model == 'gpt-4':
-    #     csv_path_read = f'4_sectors/stocks15_auto_{sector_name}.csv'
-    # elif model == 'gpt-4-1106-preview':
-    #     csv_path_read = f'4preview_sectors/stocks15_auto_{sector_name}.csv'
-    # else:
-    #     csv_path_read = f'3_sectors/stocks15_auto_{sector_name}.csv'
-
     if model == 'gpt-4':
-        csv_path_read = f'countries/4_countries/stocks15_auto_{sector_name}.csv'
+        csv_path_read = f'cached/4_sectors/stocks15_auto_{sector_name}.csv'
     elif model == 'gpt-4-1106-preview':
-        csv_path_read = f'countries/4preview_countries/stocks15_auto_{sector_name}.csv'
+        csv_path_read = f'cached/4preview_sectors/stocks15_auto_{sector_name}.csv'
     else:
-        csv_path_read = f'countries/3_countries/stocks15_auto_{sector_name}.csv'
-
+        csv_path_read = f'cached/3_sectors/stocks15_auto_{sector_name}.csv'
 
     sector_df = pd.read_csv(csv_path_read)
 
@@ -110,11 +95,11 @@ def calculate_weights_by_sector_average(sector_name, full_ticker, model, params,
 
 
         if model == 'gpt-4':
-            csv_path_write_avg = f'countries/4_avg_weights_response/responses15_auto_{sector_name}.csv'
+            csv_path_write_avg = f'cached/4_avg_weights_response/responses15_auto_{sector_name}.csv'
         elif model == 'gpt-4-1106-preview':
-            csv_path_write_avg = f'countries/4preview_avg_weights_response/responses15_auto_{sector_name}.csv'
+            csv_path_write_avg = f'cached/4preview_avg_weights_response/responses15_auto_{sector_name}.csv'
         else:
-            csv_path_write_avg = f'countries/3_avg_weights_response/responses15_auto_{sector_name}.csv'
+            csv_path_write_avg = f'cached/3_avg_weights_response/responses15_auto_{sector_name}.csv'
 
         if os.path.isfile(csv_path_write_avg):
             print("Adding weights to file")
@@ -143,11 +128,11 @@ def calculate_weights_by_sector_average(sector_name, full_ticker, model, params,
     avg_weights_response_df = calculate_avg_weights(responses, input)
 
     if model == 'gpt-4':
-        csv_path_write = f'countries/4_avg_weights_assigned/responses15_auto_{sector_name}.csv'
+        csv_path_write = f'cached/4_avg_weights_assigned/responses15_auto_{sector_name}.csv'
     elif model == 'gpt-4-1106-preview':
-        csv_path_write = f'countries/4preview_avg_weights_assigned/responses15_auto_{sector_name}.csv'
+        csv_path_write = f'cached/4preview_avg_weights_assigned/responses15_auto_{sector_name}.csv'
     else:
-        csv_path_write = f'countries/3_avg_weights_assigned/responses15_auto_{sector_name}.csv'
+        csv_path_write = f'cached/3_avg_weights_assigned/responses15_auto_{sector_name}.csv'
     
     avg_weights_response_df.to_csv(csv_path_write, index=False)
 

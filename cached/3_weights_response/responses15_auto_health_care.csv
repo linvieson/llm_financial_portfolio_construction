@@ -1,0 +1,27 @@
+To create a hypothetical model portfolio for the SP500-35 health_care stocks, I will allocate weights based on a combination of market capitalization and fundamental analysis. The underlying strategy is to create a diversified portfolio that aims to outperform the SP500-35 health_care index.
+
+Here is an example allocation of weights for the stocks:
+
+- JNJ: 0.15
+- PFE: 0.10
+- MRK: 0.10
+- ABT: 0.08
+- BMY: 0.08
+- AMGN: 0.07
+- GILD: 0.07
+- LLY: 0.06
+- TMO: 0.06
+- MDT: 0.05
+- ABBV: 0.05
+- UNH: 0.05
+- BIIB: 0.04
+- VRTX: 0.04
+- REGN: 0.03
+
+The weights are normalized, meaning they add up to 1.00.
+
+The allocation of weights is based on the following logic:
+1. Market Capitalization: Larger companies tend to have a greater impact on the index, so stocks with higher market capitalization are assigned higher weights.
+2. Fundamental Analysis: Stocks with strong financials, growth prospects, and competitive advantages are given higher weights.
+
+Please note that this allocation is hypothetical and should not be considered as financial advice. It is always recommended to conduct thorough research and consult with a financial professional before making any investment decisions.

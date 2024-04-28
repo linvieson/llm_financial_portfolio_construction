@@ -1,0 +1,25 @@
+To create a hypothetical model portfolio, I will consider a strategy that focuses on diversification and weighting the stocks based on their market capitalization. This approach aims to replicate the performance of the SP500-40 financials index while potentially outperforming it.
+
+First, I will calculate the market capitalization weights for each stock by dividing the market capitalization of each stock by the total market capitalization of all the stocks in the SP500-40 financials index.
+
+Here is an example of how the weights could be allocated:
+
+JPM: 0.15
+BAC: 0.12
+WFC: 0.11
+C: 0.09
+GS: 0.08
+MS: 0.07
+AXP: 0.06
+V: 0.06
+MA: 0.05
+SCHW: 0.04
+BLK: 0.04
+COF: 0.04
+DFS: 0.03
+STT: 0.02
+BK: 0.02
+
+The underlying strategy used here is market capitalization weighting, which assigns higher weights to stocks with larger market capitalizations. This strategy aims to provide a diversified exposure to the SP500-40 financials index while ensuring that the portfolio's performance is influenced by the performance of the larger companies in the index.
+
+It's important to note that this is a hypothetical example, and actual weight allocations may vary based on various factors such as market conditions, investor preferences, and risk tolerance.

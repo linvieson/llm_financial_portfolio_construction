@@ -1,0 +1,35 @@
+Creating a model portfolio that aims to outperform an index requires a strategy that identifies stocks with the potential for higher returns. The strategy could be based on a variety of factors such as growth potential, valuation, dividend yield, financial stability, and past performance. For this hypothetical example, let's assume we are using a combination of dividend yield, growth potential, and financial stability as our primary factors.
+
+Here's a simplified approach to assigning weights:
+
+1. **Dividend Yield**: We might overweight stocks with higher dividend yields, assuming they are sustainable, to capture income.
+2. **Growth Potential**: We might allocate more to companies that have better long-term growth prospects in terms of earnings and revenue.
+3. **Financial Stability**: We would prefer companies with solid balance sheets, low debt, and strong cash flows.
+
+Let's assume after thorough research, we've determined that NEE, DUK, and SO have the best combination of high dividend yield, growth potential, and financial stability. We might then decide to overweight these stocks in the portfolio.
+
+Now, let's distribute the weights. We start by giving the top three stocks (NEE, DUK, SO) a higher weight, and distribute the remaining weight among the other stocks, giving a slight preference to those with the next best combination of our key factors.
+
+Here's a hypothetical allocation:
+
+- NEE: 0.12
+- DUK: 0.11
+- SO: 0.10
+- D: 0.07
+- EXC: 0.07
+- AEP: 0.07
+- SRE: 0.06
+- XEL: 0.06
+- WEC: 0.06
+- EIX: 0.05
+- PEG: 0.05
+- ED: 0.05
+- DTE: 0.04
+- ETR: 0.04
+- PPL: 0.05
+
+Total: 1.00
+
+In this hypothetical allocation, we've given the top three stocks a combined weight of 0.33 (or 33% of the portfolio), reflecting our confidence in their potential to outperform. The other stocks are weighted based on a descending order of our confidence in their combination of yield, growth, and stability.
+
+This allocation is purely illustrative and would need to be adjusted based on real-time analysis, risk tolerance, investment horizon, and other individual factors. Additionally, this portfolio would need to be rebalanced periodically to maintain the desired weightings and to adjust for any changes in the companies' fundamentals or in the market conditions.

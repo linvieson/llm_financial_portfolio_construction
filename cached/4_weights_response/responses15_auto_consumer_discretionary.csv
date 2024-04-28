@@ -1,0 +1,29 @@
+Sure, here's a hypothetical example of how the weights might be distributed:
+
+1. AMZN - 0.20
+2. HD - 0.10
+3. NKE - 0.10
+4. SBUX - 0.10
+5. MCD - 0.10
+6. BKNG - 0.05
+7. LOW - 0.05
+8. TJX - 0.05
+9. GM - 0.05
+10. TSLA - 0.05
+11. ROST - 0.05
+12. F - 0.05
+13. DPZ - 0.02
+14. YUM - 0.02
+15. CMG - 0.01
+
+Total: 1.00
+
+The underlying strategy here is a blend of market capitalization and sector diversification. 
+
+AMZN, being a dominant player in the consumer discretionary sector and having a large market cap, is given the highest weightage. HD, NKE, SBUX, and MCD are also strong performers in the sector and are given a significant weightage. 
+
+The rest of the stocks are assigned lower weights to ensure diversification and to hedge against potential risks. This includes both traditional companies like GM and F, and growth-oriented companies like TSLA. 
+
+The lowest weights are given to DPZ, YUM, and CMG as these are relatively smaller companies and may have higher volatility. However, they are included in the portfolio for diversification and potential high returns. 
+
+Please note that this is a hypothetical distribution and actual allocation should be based on detailed analysis of each company's fundamentals, market conditions, and the investor's risk tolerance.

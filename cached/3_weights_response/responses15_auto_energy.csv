@@ -1,0 +1,25 @@
+To create a hypothetical allocation of weights for the stocks in the SP500-10 energy sector, I will consider a strategy that aims to outperform the index. One possible approach is to assign weights based on the market capitalization of each stock.
+
+Here is an example allocation with weights for the stocks in the portfolio:
+
+XOM: 0.15
+CVX: 0.15
+COP: 0.12
+SLB: 0.08
+EOG: 0.10
+PSX: 0.08
+KMI: 0.07
+OXY: 0.06
+VLO: 0.05
+MPC: 0.05
+WMB: 0.04
+BKR: 0.03
+HAL: 0.03
+DVN: 0.02
+PXD: 0.02
+
+The weights are normalized, meaning they add up to 1.00.
+
+The underlying strategy for this allocation is to give higher weights to larger market capitalization stocks (XOM and CVX) as they have a greater impact on the index. This approach aims to capture the performance of the overall sector while providing a slight overweight to potentially outperforming stocks (such as EOG and KMI) based on their market capitalization.
+
+Please note that this is a hypothetical example, and actual portfolio construction requires thorough analysis and consideration of various factors such as risk tolerance, investment objectives, and market conditions.
