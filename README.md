@@ -4,7 +4,7 @@
 
 This is the repository with code for the thesis work.
 
-Applications of AI in the finance field are advancing with the development of AI itself. The Large Language Models are good at performing general tasks but must be tailored to excel in solving niche problems. The question researched in this work is whether LLMs can construct financial portfolios that outperform the benchmarks. The portfolios comprising 15 stocks from each of the S&P 500 sector indices are constructed by prompting three GPT models, Bard AI, and Claude 3. These models also assign weights to the stocks in the portfolios. The equally weighted and three optimised portfolios from the pre-selected stocks are also constructed for each model and each sector. The whole process results in 275 portfolios. Their performance is compared to the benchmarks - the sector indices - via different metrics.
+Applications of AI in the finance field are advancing with the development of AI itself. The Large Language Models (LLMs) are good at performing general conversational tasks but must be tailored to excel in solving niche problems. The question researched in this work is whether LLMs can construct financial portfolios that outperform benchmark portfolios. Portfolios comprising 15 stocks from each of the S\&P 500 sector indices are constructed by prompting three OpenAI GPT models, Bard AI, and Claude 3. These models also assign weights to stocks in the portfolios. The equally weighted and three optimised portfolios from the LLM pre-selected stocks are also constructed for each model and each sector. The whole process results in 275 portfolios. Their performance is compared to the benchmarks - the sector indices - via different metrics.
 
 ## Usage
 
@@ -70,7 +70,7 @@ If you construct portfolios from scratch, the files will be saved to your new __
 
 ## Results
 
-After comparing the cumulative returns of the portfolios with the cumulative returns of the sector indices, the results were found to be that there are three sectors in which LLMs fail to construct good portfolios and eight sectors in which LLMs happened to be good stock-selectors. Different metrics are considered to understand the logic behind such results and LLMs’ reasons for such portfolio selections. The hypothesis to be accepted is that in the sectors where LLMs fail to construct competitive portfolios, the sector indices themselves perform very well - so it is hard for LLM to choose only 15 stocks to outperform the good-performing index. When portfolios are compared to the sector indices by risk measures (Sharpe ratio), LLMs outperform the sector index in every sector.
+After comparing cumulative returns  of the portfolios with cumulative returns of the sector indices, the results were found to be that there are three sectors in which LLMs failed to construct competitive portfolios and eight sectors in which LLMs happened to be good stock-selectors. Different metrics are considered to understand logic behind such results and LLMs’ reasons for such portfolio selections. The hypothesis to be investigated is that in the sectors where LLMs fail to construct competitive portfolios, the sector indices themselves perform very well - so it is hard for an LLM to choose only 15 stocks to outperform the good-performing index. When portfolios are compared to the sector indices by risk-reward measures (e.g., Sharpe ratio), LLMs outperform the sector index in every sector.
 
 ## Conclusions
 
