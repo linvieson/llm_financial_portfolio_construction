@@ -1,36 +1,4 @@
 .DS_Store
 __pycache__
 .venv
-3_avg_weights_assigned
-3_avg_weights_response
-# 3_sectors
-3_weights_assigned
-3_weights_response
-4_avg_weights_assigned
-4_avg_weights_response
-4_returns_insample
-4_returns_outsample
-# 4_sectors
-4_weights_assigned
-4_weights_response
-4preview_avg_weights_assigned
-4preview_avg_weights_response
-# 4preview_sectors
-4preview_weights_assigned
-4preview_weights_response
-bard_avg_weights_assigned
-bard_avg_weights_response
-# bard_sectors
-bard_weights_assigned
-bard_weights_response
-claude_avg_weights_assigned
-claude_avg_weights_response
-# claude_sectors
-claude_weights_assigned
-claude_weights_response
-# efficient_portfolios 
-images
-returns_insample
-returns_outsample
-ALINA.ipynb
-
+api_key.txt
